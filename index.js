@@ -14,6 +14,6 @@ app.get("/currency",(req, res)=>{
 })
 
 
-app.get("currency/new", (req, res)=>{
+app.get("/currency/new", (req, res)=>{
    res.send("hi im new currency");
 })
